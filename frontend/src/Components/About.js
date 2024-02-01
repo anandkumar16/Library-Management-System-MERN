@@ -11,21 +11,14 @@ function About() {
                 </div>
                 <div>
                     <p className="about-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text 
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book. It has survived not 
-                        only five centuries.<br/>
+                    Welcome to our Library Management System - a collaborative effort aimed at revolutionizing the way libraries function. Our project is designed to streamline and enhance the entire library experience, offering an efficient and user-friendly platform for both librarians and patrons.<br/>
+
                         <br/>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor 
-                        at Hampden-Sydney College in Virginia, looked up one of the more obscure 
-                        Latin words, consectetur, from a Lorem Ipsum passage.<br/>
+                        With a focus on innovation and user convenience, our team has diligently worked to develop a comprehensive system that simplifies book tracking, inventory management, and user interactions. From intuitive search features to automated lending processes, we strive to make library operations seamless and enjoyable.<br/>
+
                         <br/>
-                        There are many variations of passages of Lorem Ipsum available, 
-                        but the majority have suffered alteration in some form, by injected 
-                        humour<br/>
+                        Join us on this journey to transform traditional libraries into dynamic hubs of information, where technology meets literature, and the joy of reading is amplified. Explore the future of library management with us!"<br/>
+                        
                         <br/>
                         Your suggestions for improvement are always welcome!
                     </p>
@@ -34,5 +27,6 @@ function About() {
         </div>
     )
 }
+
 
 export default About

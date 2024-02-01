@@ -4,66 +4,62 @@ import './News.css'
 function News() {
     return (
         <div className='news-container'>
-            <h className='news-title'>Updates for You</h>
+            <h className='news-title'>New Updates</h>
             <div className='news-data'>
                 <div className='news-empty'></div>
                 <div>
-                    <h1 className='news-subtitle'>Competitions</h1>
+                    <h1 className='news-subtitle'>Articles/Blogs</h1>
                     <div>
                         <div className='news-competition-event'>
-                            <p>Competion-1</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Articles-1</p>
+                            
                         </div>
                         <div className='news-competition-event'>
-                            <p>Competion-2</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Articles-2</p>
+                            
                         </div>
                         <div className='news-competition-event'>
-                            <p>Competion-3</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Articles-3</p>      
+                            <p>Budget Highlights 2024: Union Finance Minister Nirmala Sitharaman today presented the Interim Budget 2024.</p>
+    
                         </div>
                         <div className='news-competition-event'>
-                            <p>Competion-4</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Blog-1</p>
+                            
                         </div>
                         <div className='news-competition-event'>
-                            <p>Competion-5</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Blog-2</p>
+                            <p>Even if you‘re not sure what a blog is, you’ve no doubt come across one at some point in time.</p>
                         </div>
                     </div>
                 </div>
                 <div className='news-empty'></div>
                 <div>
-                    <h1 className='news-subtitle'>Online Quiz</h1>
+                    <h1 className='news-subtitle'>Notes For you</h1>
                     <div>
                         <div className='news-quiz-event'>
-                            <p>Quiz-1</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Engineering-Physics</p>
+                            
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Quiz-2</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Engineering-chemistry</p>
+                            
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Quiz-3</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>Engineering-Maths</p>
+                            
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Quiz-4</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
-                                industry.</p>
+                            <p>DSA Programming </p>
+                           
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Quiz-5</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            <p>Machine Learning</p>
+                           
+                        </div>
+                        <div className='news-quiz-event'>
+                            <p>Android Development</p>
+                            <p>In detail by Dr. M C Jain analysising with indepth core knowledge about
                                 industry.</p>
                         </div>
                     </div>
