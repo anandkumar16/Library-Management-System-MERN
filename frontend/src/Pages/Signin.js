@@ -12,12 +12,13 @@ function Signin() {
     const [error, setError] = useState("")
     const { dispatch } = useContext(AuthContext)
 
-    const API_URL = process.env.REACT_APP_API_URL
+    // const API_URL = process.env.REACT_APP_API_URL
     
     const loginCall = async (userCredential, dispatch) => {
         dispatch({ type: "LOGIN_START" });
         try {
-            const res = await axios.post(API_URL+"api/auth/signin", userCredential);
+            const res = await axios.post("http://localhost:5000/api/auth/signin", userCredential);
+            console.log(res);
             dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
         }
         catch (err) {

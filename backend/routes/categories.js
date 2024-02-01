@@ -7,6 +7,7 @@ router.get("/allcategories", async (req, res) => {
   try {
     const categories = await BookCategory.find({});
     res.status(200).json(categories);
+    console.log(categories);
   } catch (err) {
     return res.status(504).json(err);
   }

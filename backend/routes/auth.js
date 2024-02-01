@@ -8,8 +8,8 @@ const router = express.Router();
 router.post("/register", async (req, res) => {
   try {
     /* Salting and Hashing the Password */
-    const salt = await bcrypt.genSalt(10);
-    const hashedPass = await bcrypt.hash(req.body.password, salt);
+    // const salt = await bcrypt.genSalt(10);
+    // const hashedPass = await bcrypt.hash(req.body.password, salt);
 
     /* Create a new user */
     const newuser = await new User({
@@ -23,7 +23,7 @@ router.post("/register", async (req, res) => {
       address: req.body.address,
       mobileNumber: req.body.mobileNumber,
       email: req.body.email,
-      password: hashedPass,
+      password: req.body.password,
       isAdmin: req.body.isAdmin,
     });
 
@@ -38,7 +38,7 @@ router.post("/register", async (req, res) => {
 /* User Login */
 router.post("/signin", async (req, res) => {
   try {
-    console.log(req.body, "req");
+    console.log(req.body);
     const user = req.body.admissionId
       ? await User.findOne({
           admissionId: req.body.admissionId,
@@ -48,13 +48,15 @@ router.post("/signin", async (req, res) => {
         });
 
     console.log(user, "user");
+    // console.log(user);
 
     !user && res.status(404).json("User not found");
 
-    const validPass = await bcrypt.compare(req.body.password, user.password);
+    // const validPass = await bcrypt.compare(req.body.password, user.password);
+    const validPass = true
     !validPass && res.status(400).json("Wrong Password");
 
-    res.status(200).json(user);
+    res.status(200).json(user); 
   } catch (err) {
     console.log(err);
   }

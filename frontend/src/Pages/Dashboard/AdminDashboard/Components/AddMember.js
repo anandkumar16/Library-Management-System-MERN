@@ -8,7 +8,7 @@ import moment from 'moment';
 
 function AddMember() {
 
-    const API_URL = process.env.REACT_APP_API_URL
+    // const API_URL = process.env.REACT_APP_API_URL
     const [isLoading, setIsLoading] = useState(false)
 
     const [userFullName, setUserFullName] = useState(null)
@@ -55,7 +55,7 @@ function AddMember() {
                 password: password
             }
             try {
-                const response = await axios.post(API_URL + "api/auth/register", userData)
+                const response = await axios.post("http://localhost:5000/api/auth/register", userData)
                 if (recentAddedMembers.length >= 5) {
                     recentAddedMembers.splice(-1)
                 }
@@ -88,7 +88,7 @@ function AddMember() {
     useEffect(() => {
         const getMembers = async () => {
             try {
-                const response = await axios.get(API_URL + "api/users/allmembers")
+                const response = await axios.get("http://localhost:5000/api/auth/allmembers")
                 const recentMembers = await response.data.slice(0, 5)
                 setRecentAddedMembers(recentMembers)
             }
@@ -97,7 +97,7 @@ function AddMember() {
             }
         }
         getMembers()
-    }, [API_URL])
+    }, [])
 
     return (
         <div>
