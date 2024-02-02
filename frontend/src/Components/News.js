@@ -38,23 +38,44 @@ function News() {
                     <h1 className='news-subtitle'>Notes For you</h1>
                     <div>
                         <div className='news-quiz-event'>
-                            <p>Engineering-Physics</p>
+                            {/* <p>Engineering-Physics</p> */}
+                            <a 
+                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >Engineering-Physics</a>
                             
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Engineering-chemistry</p>
+                        <a 
+                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >Engineering-Chemistry</a>
                             
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Engineering-Maths</p>
+                        <a 
+                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >Engineering-Maths</a>
                             
                         </div>
                         <div className='news-quiz-event'>
-                            <p>DSA Programming </p>
+                        <a 
+                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >DSA Programming</a>
                            
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Machine Learning</p>
+                        <a 
+                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >Machine Learning</a>
                            
                         </div>
                         <div className='news-quiz-event'>
