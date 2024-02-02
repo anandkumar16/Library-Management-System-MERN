@@ -40,6 +40,7 @@ function AddTransaction() {
         if (bookId !== "" && borrowerId !== "" && transactionType !== "" && fromDate !== null && toDate !== null) {
             const borrower_details = await axios.get(API_URL + "api/users/getuser/" + borrowerId)
             const book_details = await axios.get(API_URL + "api/books/getbook/" + bookId)
+            console.log(book_details);
             
             /* Checking weather the book is available or not */
             if ((book_details.data.bookCountAvailable > 0 && (transactionType === "Issued" || transactionType === "Reserved")) || (book_details.data.bookCountAvailable === 0 && transactionType === "Reserved")) {
@@ -92,6 +93,45 @@ function AddTransaction() {
         setIsLoading(false)
     }
 
+    const [bookDetails, setBookDetails] = useState({
+        availableCopies: 0,
+        reserved: 0,
+      });
+
+      // ... (Previous code)
+
+  /* Fetching books */
+  useEffect(() => {
+    const getallBooks = async () => {
+      const response = await axios.get(API_URL + "api/books/allbooks");
+      const allbooks = response.data.map((book) => ({
+        value: `${book._id}`,
+        text: `${book.bookName}`,
+      }));
+      setAllBooks(allbooks);
+    };
+    getallBooks();
+  }, [API_URL]);
+
+  /* Fetching book details */
+  useEffect(() => {
+    const getBookDetails = async () => {
+      try {
+        if (bookId !== "") {
+          const response = await axios.get(
+            API_URL + "api/books/getbook/" + bookId
+          );
+          setBookDetails({
+            availableCopies: response.data.bookCountAvailable,
+            reserved: response.data.reservedCount,
+          });
+        }
+      } catch (err) {
+        console.log("Error in getting book details");
+      }
+    };
+    getBookDetails();
+  }, [API_URL, bookId]);
 
     /* Fetch Transactions */
     useEffect(() => {
@@ -233,9 +273,13 @@ function AddTransaction() {
                 </div>
                 <table className="admindashboard-table shortinfo-table" style={bookId === "" ? { display: "none" } : {}}>
                     <tr>
-                        <th>Available Coipes</th>
+                        <th>Available Copies</th>
                         <th>Reserved</th>
                     </tr>
+                    <tr>
+                    <td>{bookDetails.availableCopies}</td>
+                    <td>{bookDetails.reserved}</td>
+        </tr>
                 </table>
 
                 <label className="transaction-form-label" htmlFor="transactionType">Transaction Type<span className="required-field">*</span></label><br />
