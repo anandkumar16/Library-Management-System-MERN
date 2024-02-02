@@ -1,7 +1,11 @@
 import React from 'react'
 import './News.css'
+import AddNotes from './AddNotes'
 
 function News() {
+    function addNotes(params) {
+        
+    }
     return (
         <div className='news-container'>
             <h className='news-title'>New Updates</h>
@@ -82,6 +86,9 @@ function News() {
                             <p>Android Development</p>
                             <p>In detail by Dr. M C Jain analysising with indepth core knowledge about
                                 industry.</p>
+                        </div>
+                        <div>
+                        <button  onClick={addNotes}>Add Notes +</button>
                         </div>
                     </div>
                 </div>

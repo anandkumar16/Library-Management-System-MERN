@@ -17,6 +17,7 @@ import GetMember from './Components/GetMember';
 import AssignmentReturnIcon from '@material-ui/icons/AssignmentReturn';
 import Return from './Components/Return';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+import Profile from './Components/Profile';
 
 
 /* Semantic UI Dropdown Styles Import */
@@ -27,7 +28,7 @@ document.head.appendChild(styleLink);
 
 function AdminDashboard() {
 
-    const [active, setActive] = useState("addbooks")
+    const [active, setActive] = useState("profile")
     const [sidebar, setSidebar] = useState(false)
 
     /* Logout Function*/
@@ -62,6 +63,9 @@ function AdminDashboard() {
 
                 </div>
                 <div className="dashboard-option-content">
+                <div className="dashboard-addbooks-content" style={active !== "profile" ? { display: 'none' } : {}}>
+                        <Profile/>
+                    </div>
                     <div className="dashboard-addbooks-content" style={active !== "addbook" ? { display: 'none' } : {}}>
                         <AddBook />
                     </div>
