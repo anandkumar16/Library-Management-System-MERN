@@ -23,6 +23,11 @@ function News() {
                             
                         </div>
                         <div className='news-competition-event'>
+                            <p>Articles-2</p>
+                            
+                        </div>
+                        
+                        <div className='news-competition-event'>
                             <p>Articles-3</p>      
                             <p>Budget Highlights 2024: Union Finance Minister Nirmala Sitharaman today presented the Interim Budget 2024.</p>
     
@@ -52,7 +57,7 @@ function News() {
                         </div>
                         <div className='news-quiz-event'>
                         <a 
-                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            href='https://drive.google.com/file/d/1HPfd4ND9mYYwfNpaAouYkvTKa_f8cHWv/view' 
                             target='_blanck'
                             style={{color:"black"}}
                             >Engineering-Chemistry</a>
@@ -60,7 +65,7 @@ function News() {
                         </div>
                         <div className='news-quiz-event'>
                         <a 
-                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            href='https://drive.google.com/file/d/1_hXOY6l9MRyC9anxMQpaqTDwrpRqD1um/view' 
                             target='_blanck'
                             style={{color:"black"}}
                             >Engineering-Maths</a>
@@ -68,7 +73,7 @@ function News() {
                         </div>
                         <div className='news-quiz-event'>
                         <a 
-                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            href='https://drive.google.com/file/d/1VH4XcxmSrntC-5izxuIVXdWLDX511Kc_/view' 
                             target='_blanck'
                             style={{color:"black"}}
                             >DSA Programming</a>
@@ -76,19 +81,25 @@ function News() {
                         </div>
                         <div className='news-quiz-event'>
                         <a 
-                            href='https://drive.google.com/file/d/19zCHVtydybDXf5Iu1uPDD_soeHKhne3q/view' 
+                            href='https://drive.google.com/file/d/1ljfPWsko7E-aeRWD7La9HUycAscUg_fZ/view' 
                             target='_blanck'
                             style={{color:"black"}}
-                            >Machine Learning</a>
+                            >Electronics and communication</a>
                            
                         </div>
                         <div className='news-quiz-event'>
-                            <p>Android Development</p>
-                            <p>In detail by Dr. M C Jain analysising with indepth core knowledge about
+                        <a 
+                            href='https://drive.google.com/file/d/1ljfPWsko7E-aeRWD7La9HUycAscUg_fZ/view' 
+                            target='_blanck'
+                            style={{color:"black"}}
+                            >App development</a>
+                           
+                        
+                            <p>In detail by Dr. Harry analysising with indepth core knowledge about
                                 industry.</p>
                         </div>
                         <div>
-                        <button  onClick={addNotes}>Add Notes +</button>
+                        <button className='btn1'>Add Notes +</button>
                         </div>
                     </div>
                 </div>
