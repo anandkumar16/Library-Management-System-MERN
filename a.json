@@ -1,0 +1,183 @@
+[
+    {
+      "bookName": "The Great Gatsby",
+      "alternateTitle": "None",
+      "author": "F. Scott Fitzgerald",
+      "language": "English",
+      "publisher": "Scribner",
+      "bookCountAvailable": 5,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "To Kill a Mockingbird",
+      "alternateTitle": "None",
+      "author": "Harper Lee",
+      "language": "English",
+      "publisher": "J.B. Lippincott & Co.",
+      "bookCountAvailable": 8,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "1984",
+      "alternateTitle": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "language": "English",
+      "publisher": "Secker & Warburg",
+      "bookCountAvailable": 3,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "Pride and Prejudice",
+      "alternateTitle": "None",
+      "author": "Jane Austen",
+      "language": "English",
+      "publisher": "T. Egerton, Whitehall",
+      "bookCountAvailable": 10,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Catcher in the Rye",
+      "alternateTitle": "None",
+      "author": "J.D. Salinger",
+      "language": "English",
+      "publisher": "Little, Brown and Company",
+      "bookCountAvailable": 6,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "One Hundred Years of Solitude",
+      "alternateTitle": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "language": "Spanish",
+      "publisher": "Harper & Row",
+      "bookCountAvailable": 4,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Hobbit",
+      "alternateTitle": "There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "language": "English",
+      "publisher": "George Allen & Unwin",
+      "bookCountAvailable": 7,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "Moby-Dick",
+      "alternateTitle": "None",
+      "author": "Herman Melville",
+      "language": "English",
+      "publisher": "Richard Bentley",
+      "bookCountAvailable": 2,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Lord of the Rings",
+      "alternateTitle": "None",
+      "author": "J.R.R. Tolkien",
+      "language": "English",
+      "publisher": "George Allen & Unwin",
+      "bookCountAvailable": 9,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "Crime and Punishment",
+      "alternateTitle": "Преступление и наказание",
+      "author": "Fyodor Dostoevsky",
+      "language": "Russian",
+      "publisher": "The Russian Messenger",
+      "bookCountAvailable": 1,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Great Expectations",
+      "alternateTitle": "None",
+      "author": "Charles Dickens",
+      "language": "English",
+      "publisher": "Chapman & Hall",
+      "bookCountAvailable": 12,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Odyssey",
+      "alternateTitle": "None",
+      "author": "Homer",
+      "language": "Ancient Greek",
+      "publisher": "None",
+      "bookCountAvailable": 15,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "Wuthering Heights",
+      "alternateTitle": "None",
+      "author": "Emily Brontë",
+      "language": "English",
+      "publisher": "Thomas Cautley Newby",
+      "bookCountAvailable": 20,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Brothers Karamazov",
+      "alternateTitle": "Братья Карамазовы",
+      "author": "Fyodor Dostoevsky",
+      "language": "Russian",
+      "publisher": "The Russian Messenger",
+      "bookCountAvailable": 18,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The War and Peace",
+      "alternateTitle": "Война и миръ",
+      "author": "Leo Tolstoy",
+      "language": "Russian",
+      "publisher": "The Russian Messenger",
+      "bookCountAvailable": 14,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "Frankenstein",
+      "alternateTitle": "The Modern Prometheus",
+      "author": "Mary Shelley",
+      "language": "English",
+      "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+      "bookCountAvailable": 11,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Alchemist",
+      "alternateTitle": "O Alquimista",
+      "author": "Paulo Coelho",
+      "language": "Portuguese",
+      "publisher": "Editora Rocco",
+      "bookCountAvailable": 16,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Count of Monte Cristo",
+      "alternateTitle": "Le Comte de Monte-Cristo",
+      "author": "Alexandre Dumas",
+      "language": "French",
+      "publisher": "Le Journal des débats",
+      "bookCountAvailable": 13,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Picture of Dorian Gray",
+      "alternateTitle": "None",
+      "author": "Oscar Wilde",
+      "language": "English",
+      "publisher": "Lippincott's Monthly Magazine",
+      "bookCountAvailable": 17,
+      "bookStatus": "Available"
+    },
+    {
+      "bookName": "The Little Prince",
+      "alternateTitle": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "language": "French",
+      "publisher": "Reynal & Hitchcock",
+      "bookCountAvailable": 19,
+      "bookStatus": "Available"
+    }
+  ]
+  

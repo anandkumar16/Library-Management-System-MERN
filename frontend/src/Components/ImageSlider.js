@@ -20,7 +20,7 @@ function ImageSlider() {
                 <Carousel.Item interval={500}>
                     <img
                         className="d-block w-100"
-                        src="https://th.bing.com/th/id/R.533885405ef032cf267351c5e3291bd0?rik=rwEpvQbYAaCU0w&riu=http%3a%2f%2fiheartblr.com%2fwp-content%2fuploads%2f2016%2f11%2fstate-central-library-1024x683-2-1024x683.jpg&ehk=RCZ%2bJ7AHas3Oqp4e2z7VoPZ6Y3Jd3mbYlAh%2bwWrme3I%3d&risl=&pid=ImgRaw&r=0"
+                        src="https://www.iesonline.co.in/colleges-image/bmsit-bangalore.jpg"
                         alt="Second slide"
                     />
                     <Carousel.Caption>
