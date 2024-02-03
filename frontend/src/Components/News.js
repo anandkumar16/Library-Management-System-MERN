@@ -24,7 +24,12 @@ function News() {
                         </div>
                         <div className='news-competition-event'>
                             <p>Articles-3</p>      
-                            <p>Budget Highlights 2024: Union Finance Minister Nirmala Sitharaman today presented the Interim Budget 2024.</p>
+                            <a href='https://www.livemint.com/economy/budget-2024-25-key-highlights-live-updates-interim-budget-agriculture-infra-fiscal-deficit-nirmala-sitharaman-11706695416199.html'
+                            target='_blanck'
+                            style={{color:"black"}}>
+                                <p>Budget Highlights 2024: Union Finance Minister Nirmala Sitharaman today presented the Interim Budget 2024.
+                                </p>
+                            </a>
     
                         </div>
                         <div className='news-competition-event'>
